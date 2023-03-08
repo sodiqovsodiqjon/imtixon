@@ -1,0 +1,641 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  background-color: #E3E6EB;
+  background-color: #E5E5E5;;
+  color: black;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 0;
+  width: 1260px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.dark-mode {
+  background-color:rgb(53, 52, 52);
+  color: red;
+}
+
+.header__sun {
+  margin-right: 10px;
+}
+
+.header__search {
+  border-radius: 5px;
+  width: 670px;
+  height: 48px;
+}
+
+.header__box {
+  width: 1259px;
+  height: 56px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  /* margin-top: 10px; */
+}
+
+/* .header__bottom-box{
+    width: 1259px;
+    height: 56px; 
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.header__bottom-text {
+  margin-top: 16px;
+}
+
+.header__bottom-btn {
+  margin-top: 11px;
+  border: none;
+  color: #fff;
+}
+
+.header__dark {
+  display: flex;
+  align-items: center;
+}
+
+.header__bottom-btn {
+  width: 165px;
+  height: 34px;
+  background: #A6B0C3;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+
+.header__bottom-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1259px;
+  height: 56px;
+}
+
+
+.header__bottom-box {
+  /* display: flex; */
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.our {
+  width: 268px;
+  height: 800px;
+  margin-top: 571px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.phyton {
+  display: flex;
+  width: 218px;
+  height: 72px;
+  background: #F8FAFD;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.our__phyton {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.our__img {
+  margin-top: 21px;
+  margin-left: 16px;
+}
+
+
+
+.our__twoo {
+  width: 991px;
+}
+
+.carousel-control-next-icon {
+  opacity: 0.1;
+}
+
+.carousel-control-prev-icon {
+  opacity: 0.1;
+}
+
+.book__item-list {
+  background-color: #fff;
+  width: 282px;
+  height: 431px;
+}
+
+.book__img-back {
+  width: 249px;
+  height: 238px;
+  background: #F8FAFD;
+  border-radius: 5px;
+}
+
+
+
+.book__list-textyear {
+  color: #757881;
+}
+
+.book__list-text {
+  color: #757881;
+}
+
+.btn-secondary {
+  width: 246px;
+  height: 37px;
+  background: #75828A;
+  border-radius: 4px;
+}
+
+
+
+.btn-warning {
+  width: 120px;
+  height: 37px;
+  background: #FFD80D;
+  border-radius: 4px;
+}
+
+.btn-light {
+  width: 120px;
+  height: 37px;
+  color: #0D75FF;
+  background: rgba(13, 117, 255, 0.05);
+  border-radius: 4px;
+}
+
+.our__book-list {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 45px;
+
+}
+
+.our__book-item {
+  align-items: center;
+}
+
+.book__img-back {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.our__book-item {
+  margin: 0 auto;
+
+}
+
+.carousel-inner {
+  width: 1250px;
+}
+
+.book__img-back {
+  justify-content: center;
+  display: flex;
+
+}
+
+.our__book-item {
+  margin-left: 16px;
+}
+
+.our__book-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-bottom: 28px; */
+
+}
+
+/* .book__item-list:hover{
+
+} */
+
+.book__item-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+}
+
+.btn {
+  margin: 0 10px 5px 0;
+}
+
+.canceltbtn {
+  margin-top: 50px;
+}
+
+.book__img-back {
+  margin-top: 10px;
+
+}
+
+.btn-secondary {
+  margin-bottom: 10px;
+}
+
+.book__item-list {
+  height: 440px;
+}
+
+
+/* MODAL */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal__button {
+  width: 120px;
+  height: 37px;
+  background: rgba(13, 117, 255, 0.05);
+  border-radius: 4px;
+  color: #0D75FF;
+  border: none;
+}
+
+
+
+/* MODAL */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 500px;
+  height: 1000px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.modal-content {
+  margin-top: -62px;
+  float: right;
+
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+.modal__header-flex {
+  display: flex;
+  width: 450px;
+  height: 77px;
+  background: #cacacb3b;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: -55px;
+}
+
+
+.carousel-inner {
+  width: 991px;
+}
+
+.cancelbtn {
+  margin-top: 200px;
+}
+
+.modal__header-log {
+  position: relative;
+  margin-top: 22px;
+}
+
+.modal__header {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 50px;
+}
+
+.modal__bok-link {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.modal__box {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.modal__none {
+  height: 1px;
+}
+
+.modal__btn {
+  display: flex;
+  align-items: center;
+  width: 137px;
+  height: 29px;
+  left: 823px;
+  top: 775px;
+  background: rgba(13, 117, 255, 0.09);
+  border-radius: 30px;
+  color: #0D75FF;
+  margin: 10px 10px;
+}
+
+.modal__item {
+  display: flex;
+  align-items: center;
+
+}
+
+.modal__bok-text {
+  margin-top: 50px;
+}
+
+.can__btn {
+  margin-top: 45px;
+  border-radius: 10px;
+  width: 150px;
+
+}
+
+.book__item__list-img {
+  width: 201px;
+  height: 202px;
+}
+
+.main {
+  background-color:rgb(53, 52, 52);
+  color: rgb(224, 224, 239);
+}
+
+.header__bottom-btn{
+  padding: 0px;
+}
